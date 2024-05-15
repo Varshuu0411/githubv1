@@ -1,0 +1,26 @@
+ body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .sparkle-btn {
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        color: #fff;
+        background-color: #3498db;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        transition: background-color 0.3s;
+        border-radius: 5px;
+    }
+sparkle-btn:hover .stars {
+  display: block;
+  filter: drop-shadow(0 0 10px #fffdef);
+}
